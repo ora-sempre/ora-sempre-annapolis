@@ -1,0 +1,67 @@
+@import '../scss/variables';
+@import '../scss/mixins';
+
+.about-page {
+  @include container-setup;
+  padding: 20px;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+
+  .about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 30vh;
+    max-height: auto;
+    background: $accentColor;
+
+    .about-title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      h2 {
+        font-family: $fontTitle;
+        color: $blackColor;
+        text-align: center;
+        font-family: $fontTitle;
+        font-weight: 300;
+        font-size: 4rem;
+        padding: 3rem;
+        padding-bottom: 0;
+        margin: 0;
+      }
+
+      p {
+        text-align: center;
+        font-size: 1rem;
+        padding: 1rem 4rem 1rem 4rem;
+      }
+    }
+
+    .about-image {
+      background-position: top center !important;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+    }
+  }
+
+  .about-text {
+    position: relative;
+    width: 40%;
+    margin: 4rem auto;
+
+    p {
+      line-height: 1.6;
+      color: $blackColor;
+    }
+
+    .btn {
+      position: absolute;
+      right: -0.5rem;
+      background: none;
+      border: 1px solid $blackColor;
+      width: 16rem;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+@import './variables';
+
+// Mixin for common flex centering
+@mixin flex-row-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@mixin container-setup {
+  max-width: $maxWidth;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+@mixin underline-a {
+  a:not(.logotype) {
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    color: #000;
+    margin-left: 0.2rem;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -0.1rem;
+      width: 0;
+      height: 0.1rem;
+      background-color: #000;
+      transition: width 0.3s linear;
+    }
+
+    &:hover::before {
+      width: 100%;
+    }
+
+    &.active::before {
+      width: 100%;
+    }
+  }
+}

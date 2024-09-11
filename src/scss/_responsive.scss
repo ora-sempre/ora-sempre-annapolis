@@ -1,0 +1,308 @@
+// *** Navbar *** //
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .navbar-links,
+  .navbar-profile {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: $whiteColor;
+    gap: 0;
+
+    a {
+      display: block;
+      padding: 5px;
+    }
+
+    &.open {
+      display: flex;
+    }
+
+    &.open-inline {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+
+  .navbar-profile {
+    top: 192px;
+  }
+}
+// *** CTA *** //
+.topCTA {
+  @media (max-width: 768px) {
+    .address-icon,
+    .address-text {
+      display: none;
+    }
+  }
+}
+
+// *** Hero *** //
+@media (max-width: 768px) {
+  .hero {
+    .hero-container {
+      height: auto;
+      padding: 2rem;
+    }
+
+    .hero-text {
+      width: 100% !important;
+
+      h2 {
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+      }
+
+      .btn {
+        padding: 0.8rem 1.6rem;
+        font-size: 0.7rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text {
+    h2 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+// *** Informative *** //
+@media (max-width: 768px) {
+  .informative {
+    background-attachment: scroll;
+
+    .informative-container {
+      flex-direction: column;
+      padding: 2rem;
+    }
+
+    .informative-image {
+      display: none;
+    }
+
+    .informative-text {
+      background: rgba($color: #ccc, $alpha: 0.2);
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .informative-image {
+    display: none;
+  }
+}
+
+// *** Second Informative *** //
+
+@media (max-width: 600px) {
+  .second-informative {
+    .second-container {
+      flex-direction: column;
+
+      .collection {
+        width: 100%;
+        height: 15rem;
+        justify-content: space-evenly;
+        align-items: stretch;
+      }
+    }
+  }
+}
+
+// *** Services Section  *** //
+
+@media (max-width: 768px) {
+  .services-section .services-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+
+    .service-card {
+      height: auto;
+    }
+
+    .btn {
+      width: auto;
+    }
+  }
+}
+
+// *** Collections *** //
+@media (max-width: 768px) {
+  .collections-container {
+    .collections-card {
+      align-items: center;
+      justify-content: center !important;
+
+      .collections-text {
+        background: rgba($color: #fff, $alpha: 0.6);
+
+        border-radius: 5px;
+        padding: 1rem;
+        width: 100% !important;
+        height: 20rem !important;
+      }
+    }
+  }
+}
+
+// *** Footer, Copyrights *** //
+@media (max-width: 768px) {
+  .footer {
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 0.7rem;
+
+    .navigation {
+      align-items: flex-end;
+    }
+
+    .news-letter {
+      grid-column: 1 / -1;
+      margin-top: 0.5rem;
+      gap: 0.5rem;
+    }
+  }
+}
+.copyrights {
+  font-size: 0.7rem;
+}
+
+// *** About *** //
+@media (max-width: 768px) {
+  .about-page {
+    .about-container {
+      display: block;
+
+      .about-image {
+        height: 25rem;
+        width: 100%;
+        height: 100%;
+        background-position: top right !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+      }
+
+      .about-title{
+        h2 {
+          font-size: 2rem !important;
+        }
+      }
+    }
+
+    .about-text {
+      margin: 0 auto;
+      width: 80% !important;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .about-page {
+    .about-container {
+      grid-template-columns: 1fr !important;
+    .about-image {
+      display: none;
+    }
+  }
+}
+}
+
+// *** Treatments *** //
+@media (max-width: 768px) {
+  .treatments-page {
+    .treatments-container {
+      display: block;
+
+      .treatments-image {
+        height: 25rem;
+        width: 100%;
+        background-position: top right !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+      }
+    }
+
+    .treatments-text {
+      margin: 0 auto 5rem auto;
+      width: 80%;
+    }
+  }
+}
+
+// *** BEST SELLER *** //
+
+@media (max-width: 768px) {
+  .best-seller {
+    .best-seller-container {
+      padding-top: 1rem;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+
+      .benefits {
+        font-size: 0.5rem;
+      }
+
+      .best-seller-card {
+        .image-wrapper {
+          width: 100%;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+
+      .btn {
+        grid-column: 2 / 4;
+        font-size: 0.7rem;
+      }
+    }
+  }
+}
+
+// *** TECHNOLOGY *** //
+
+@media (max-width: 768px) {
+  .technology-section {
+    .technology-section-container {
+      grid-template-columns: repeat(2, 1fr);
+      align-items: baseline;
+      gap: 1rem;
+
+      .benefits {
+        font-size: 0.5rem;
+      }
+
+      .technology-section-card {
+        .image-wrapper {
+          width: 100%;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+
+      .btn {
+        font-size: 0.7rem;
+      }
+    }
+  }
+}
