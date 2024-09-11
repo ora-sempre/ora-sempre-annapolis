@@ -1,0 +1,74 @@
+[
+  {
+    "id": "4LSKHGhk9o9xcDAvuv7W",
+    "image": "https://avologi.com/wp-content/uploads/2018/07/Eneo-Total-AV19-1.jpg",
+    "name": "Eneo Totale",
+    "description": [
+      "Introducing the latest innovation in personalized anti-aging skin rejuvenation solutions; ENEO TOTALÉ.",
+      "TOTALE is a dermatology-recommended, clinically tested, FDA-certified 510K medical device.",
+      "TOTALÉ Delivers a tailor-made anti-aging ritual that reveals smoother, more radiant-looking skin.",
+      "Made with innovative anti-aging technology developed by a Nobel prize-winning scientist.",
+      "The second-generation skin rejuvenation device is designed to deliver the most luxurious and personalized experience yet.",
+      "ENEO TOTALÉ – for your total experience and results."
+    ],
+    "tags": [
+      "https://avologi.com/wp-content/uploads/2018/07/Nobel-1-scaled-e1711957926387-300x300.jpg",
+      "https://avologi.com/wp-content/uploads/2018/07/Patented-scaled.jpg",
+      "https://avologi.com/wp-content/uploads/2018/07/Warranty-scaled.jpg"
+    ],
+    "provider": "Avology",
+    "price": "11950",
+    "link": "https://avologi.com/product/eneo-totale/"
+  },
+  {
+    "id": "7CjSZDkYUbt2Km2g5JSU",
+    "price": "11950",
+    "description": [
+      "A professional, FDA certified hand-held medical device that utilizes a combined 415 nm wavelength within the blue light spectrum which was found as the most effectively absorbed wavelength for skin imperfections and acne treatments.",
+      "Additionally, it uses a unique applicator tip which is hypoallergenic and considered a medical-grade metal that can be used together with any skincare.",
+      "These combined technologies ensure sustainable skin rejuvenation results with minimum effort, zero side effects, and no allergies. Clinically tested, safe, effective, and dermatologists recommended, suitable for all skin types and tones."
+    ],
+    "image": "https://avologi.com/wp-content/uploads/2022/12/Eneo-Total-Blu-AV20-3-2.jpg",
+    "provider": "Avology",
+    "name": "Eneo Totale Blu",
+    "tags": [
+      "https://avologi.com/wp-content/uploads/2018/07/Warranty-300x300.jpg"
+    ],
+    "link": "https://avologi.com/product/eneo-totale-blu/"
+  },
+  {
+    "id": "TZMcUH4yvx34l0JNv1iW",
+    "image": "https://avologi.com/wp-content/uploads/2023/06/AV29-1.jpg",
+    "name": "Eneo Totale Duo",
+    "description": [
+      "Introducing the latest innovation in personalized anti-aging solutions; ENEO TOTALÉ.",
+      "TOTALÉ Delivers a tailor-made anti-aging ritual that reveals smoother, more radiant-looking skin.",
+      "Made with innovative anti-aging technology developed by a Nobel prize-winning scientist.",
+      "The second-generation skin rejuvenation device is designed to deliver the most luxurious and personalized experience yet.",
+      "ENEO TOTALÉ – for your total experience and results."
+    ],
+    "tags": [
+      "https://avologi.com/wp-content/uploads/2021/09/Patented-Avologi.jpg",
+      "https://avologi.com/wp-content/uploads/2021/09/Nobel-Prize-Technology-Combined-1.jpg",
+      "https://avologi.com/wp-content/uploads/2021/09/Lifetime-Warranty.jpg"
+    ],
+    "provider": "Avologi",
+    "link": "https://avologi.com/product/eneo-totale-duo-kit/",
+    "price": "23900"
+  },
+  {
+    "id": "lHu1ugS7wMMC4PttpGxz",
+    "image": "https://spacetouch.com/cdn/shop/files/CosmoLEDbodydevicebySpacetouch_1220x1220_crop_center.png?v=1710228368",
+    "provider": "Spacetouch",
+    "name": "cosmo",
+    "description": [
+      "In today's world, combatting aging is a choice with Cosmo, the cutting-edge, portable full-body LED device. Designed for efficiency and convenience, Cosmo features a foldable design, 360 LED and infrared points across a 23-inch width, making it the most effective LED treatment available anywhere you go. Powered by NASA's infra-red technology and offering four light wavelengths (red, blue, green, and yellow), Cosmo was crafted by leading German plastic surgeons and dermatologists. It's your all-in-one solution for various body concerns, harnessing multiple technologies in a single treatment.",
+      "Patent: US Patent number D927,008 S"
+    ],
+    "tags": [
+      "https://avologi.com/wp-content/uploads/2018/07/Warranty-300x300.jpg"
+    ],
+    "link": "https://spacetouch.com/products/cosmo",
+    "price": "120000"
+  }
+]
