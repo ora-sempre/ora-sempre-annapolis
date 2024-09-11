@@ -8,7 +8,7 @@ const Treatments = () => {
   const products = [
     {
       id: 1,
-      link: '/collection/noni/Ra55FMxK5TK9v1Df9tRj',
+      link: '',
       imageUrl: microderm,
       title: 'Deep Cleaning with Diamond Microdermabrasion',
       subtitle: 'EXFOLIATING AND CLARIFYING',
@@ -18,7 +18,7 @@ const Treatments = () => {
     },
     {
       id: 2,
-      link: '/collection/noni/pu2U3aCanEZzaMcz8QpR',
+      link: '',
       imageUrl: microneedle,
       title: 'Microneedling',
       subtitle: 'SKIN REJUVENATION',
@@ -28,7 +28,7 @@ const Treatments = () => {
     },
     {
       id: 3,
-      link: '/collection/noni/CQxcXtGOaTKrWk3GIKBo',
+      link: '',
       imageUrl: bluelight,
       title: 'Deep Cleaning with Blue Light Therapy',
       subtitle: 'SOOTHING AND PURIFYING',
@@ -38,7 +38,7 @@ const Treatments = () => {
     },
     {
       id: 4,
-      link: '/collection/noni/pu2U3aCanEZzaMcz8QpR',
+      link: '',
       imageUrl: redlight,
       title: 'Anti-Aging with Red Light',
       subtitle: 'LIFTING AND FIRMING',
