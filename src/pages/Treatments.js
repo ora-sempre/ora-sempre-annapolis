@@ -33,7 +33,7 @@ const Treatments = () => {
       title: 'Deep Cleaning with Blue Light Therapy',
       subtitle: 'SOOTHING AND PURIFYING',
       description:
-        'Unwind with our Deep Cleansing Facial, which includes a calming massage and precise extractions. This all-inclusive treatment deeply purifies your skin, while our exclusive Zahav mask enhances your facial experience and delivers even better results.',
+        'Unwind with our Deep Cleansing Facial, which includes a calming massage and precise extractions. This all-inclusive treatment deeply purifies your skin, while our exclusive mask enhances your facial experience and delivers even better results.',
       price: '$225',
     },
     {

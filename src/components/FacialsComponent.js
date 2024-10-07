@@ -31,7 +31,7 @@ const FacialsComponent = () => {
       link: '',
       imageUrl: bluelight,
       title: 'Deep Cleaning with Blue Light Therapy',
-      description: 'Unwind with our Deep Cleansing Facial, which includes a calming massage and precise extractions. This treatment deeply purifies your skin, while our exclusive Zahav mask enhances your facial experience.',
+      description: 'Unwind with our Deep Cleansing Facial, which includes a calming massage and precise extractions. This treatment deeply purifies your skin, while our exclusive mask enhances your facial experience.',
       price: '$225',
     },
     {
