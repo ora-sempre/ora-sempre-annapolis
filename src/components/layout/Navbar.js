@@ -10,6 +10,8 @@ const Navbar = () => {
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
+  const closeMenu = () => setIsOpen(false);
+  
   return (
     <header>
       <TopCTA />
@@ -24,19 +26,19 @@ const Navbar = () => {
             <img src={!isOpen ? hamburger : close} alt="Menu" />
           </button>
           <nav className={`navbar-links ${isOpen ? 'open' : ''}`}>
-            <NavLink to="/" activeClassName="active">
+            <NavLink to="/" activeClassName="active" onClick={closeMenu}>
               Book a Facial
             </NavLink>
-            <NavLink to="/collections" activeClassName="active">
+            <NavLink to="/collections" activeClassName="active" onClick={closeMenu}>
               Skincare
             </NavLink>
-            <NavLink to="/technology" activeClassName="active">
+            <NavLink to="/technology" activeClassName="active" onClick={closeMenu}>
               Technology
             </NavLink>
-            <NavLink to="/treatments" activeClassName="active">
+            <NavLink to="/treatments" activeClassName="active" onClick={closeMenu}>
               Treatments
             </NavLink>
-            <NavLink to="/about" activeClassName="active">
+            <NavLink to="/about" activeClassName="active" onClick={closeMenu}>
               About
             </NavLink>
           </nav>
