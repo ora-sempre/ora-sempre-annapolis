@@ -1,24 +1,14 @@
-import { useState, useEffect } from 'react';
+import { useState} from 'react';
 import { NavLink } from 'react-router-dom';
-import { getAuth, onAuthStateChanged } from 'firebase/auth';
 import TopCTA from './TopCTA';
 import hamburger from '../../assets/svg/hamburger.svg';
 import close from '../../assets/svg/close.svg';
 
 const Navbar = () => {
-  // eslint-disable-next-line
-  const [user, setUser] = useState(null);
+
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => setIsOpen(!isOpen);
-
-  useEffect(() => {
-    const auth = getAuth();
-    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
-      setUser(currentUser);
-    });
-    return () => unsubscribe();
-  }, []);
 
   return (
     <header>
