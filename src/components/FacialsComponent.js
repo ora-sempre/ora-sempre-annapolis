@@ -16,14 +16,14 @@ const FacialsComponent = () => {
       imageUrl: microderm,
       title: 'Deep Cleaning with Diamond Microdermabrasion',
       description: 'Our Diamond Microdermabrasion Facial is a gentle, non-invasive exfoliating treatment that encourages new cell growth and clears clogged pores. It helps reduce acne scars and balances skin tone.',
-      price: '$159',
+      price: '$299',
     },
     {
       id: 2,
       link: '',
       imageUrl: microneedle,
-      title: 'Microneedling',
-      description: 'Our Microneedling Rejuvenation Facial reduces the appearance of scars, smooths fine lines and wrinkles. Enjoy improved skin elasticity and a smoother texture with this advanced treatment.',
+      title: 'Nanoneedling',
+      description: 'Our Nanoneedling Rejuvenation Facial reduces the appearance of scars, smooths fine lines and wrinkles. Enjoy improved skin elasticity and a smoother texture with this advanced treatment.',
       price: '$359',
     },
     {
@@ -32,7 +32,7 @@ const FacialsComponent = () => {
       imageUrl: bluelight,
       title: 'Deep Cleaning with Blue Light Therapy',
       description: 'Unwind with our Deep Cleansing Facial, which includes a calming massage and precise extractions. This treatment deeply purifies your skin, while our exclusive Zahav mask enhances your facial experience.',
-      price: '$259',
+      price: '$225',
     },
     {
       id: 4,
@@ -40,7 +40,7 @@ const FacialsComponent = () => {
       imageUrl: redlight,
       title: 'Anti-Aging with Red Light',
       description: 'Our nonsurgical facelift is crafted to lift sagging skin and stimulate collagen production. This cutting-edge treatment reduces acne scars and improves blood circulation.',
-      price: '$259',
+      price: '$499',
     },
   ];
 

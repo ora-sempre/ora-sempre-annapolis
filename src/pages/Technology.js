@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { collection, getDocs, query, limit } from 'firebase/firestore';
 import { db } from '../Firebase.config';
@@ -55,9 +54,6 @@ export const Technology = () => {
         ) : (
           <p>No products exist in the technology collection</p>
         )}
-        <div>
-          <Link to="/collections">Go back to all collections</Link>
-        </div>
       </div>
     </div>
   );
