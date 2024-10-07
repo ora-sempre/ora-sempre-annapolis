@@ -9,6 +9,10 @@
     background: none;
   }
 
+  .navbar-container {
+    flex-direction: column;
+  }
+
   .navbar-links,
   .navbar-profile {
     display: none;
