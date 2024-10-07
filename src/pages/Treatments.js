@@ -14,16 +14,16 @@ const Treatments = () => {
       subtitle: 'EXFOLIATING AND CLARIFYING',
       description:
         'Our Diamond Microdermabrasion Facial is a gentle, non-invasive exfoliating treatment that encourages new cell growth and clears clogged pores. It helps reduce acne scars and balances skin tone. By stimulating collagen production, it enhances your complexion, leaving your skin brighter and more youthful.',
-      price: '$159',
+      price: '$299',
     },
     {
       id: 2,
       link: '',
       imageUrl: microneedle,
-      title: 'Microneedling',
+      title: 'Nanoneedling',
       subtitle: 'SKIN REJUVENATION',
       description:
-        'Our Microneedling Rejuvenation Facial reduces the appearance of scars, including acne scars, and smooths fine lines and wrinkles. It addresses enlarged pores, evens skin tone, and tackles hyperpigmentation and dark spots. Enjoy improved skin elasticity and a smoother texture with this advanced treatment.',
+        'Our Nanoneedling Rejuvenation Facial reduces the appearance of scars, including acne scars, and smooths fine lines and wrinkles. It addresses enlarged pores, evens skin tone, and tackles hyperpigmentation and dark spots. Enjoy improved skin elasticity and a smoother texture with this advanced treatment.',
       price: '$359',
     },
     {
@@ -34,7 +34,7 @@ const Treatments = () => {
       subtitle: 'SOOTHING AND PURIFYING',
       description:
         'Unwind with our Deep Cleansing Facial, which includes a calming massage and precise extractions. This all-inclusive treatment deeply purifies your skin, while our exclusive Zahav mask enhances your facial experience and delivers even better results.',
-      price: '$259',
+      price: '$225',
     },
     {
       id: 4,
@@ -44,7 +44,7 @@ const Treatments = () => {
       subtitle: 'LIFTING AND FIRMING',
       description:
         'Our nonsurgical facelift is crafted to lift sagging skin and stimulate collagen production. This cutting-edge treatment reduces acne scars and improves blood circulation, giving your skin a healthier glow. Enjoy a youthful look without the recovery time of traditional surgery.',
-      price: '$259',
+      price: '$499',
     },
   ];
 
