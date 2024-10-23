@@ -26,7 +26,7 @@ const Navbar = () => {
             <img src={!isOpen ? hamburger : close} alt="Menu" />
           </button>
           <nav className={`navbar-links ${isOpen ? 'open' : ''}`}>
-            <NavLink to="/" activeClassName="active" onClick={closeMenu}>
+            <NavLink target='_blank' rel='noreferrer' to="https://go.orasempreannapolis.com/widget/service-menus/orasempre-main-menu" activeClassName="active" onClick={closeMenu}>
               Book a Facial
             </NavLink>
             <NavLink to="/collections" activeClassName="active" onClick={closeMenu}>
