@@ -23,7 +23,8 @@ const Footer = () => {
         <div className="footer-policies">
           <h3>Policies</h3>
           <Link to={'/privacy-policy'}>Privacy Policy</Link>
-          <Link to={'/return-policy'}>Return / Exchange Policy</Link>
+          <Link to={'/return-policy'}>Return Policy</Link>
+          <Link to={'/return-policy'}>Exchange Policy</Link>
           <Link to={'/store-hours'}>Store Hours</Link>
         </div>
         <div className="navigation">
