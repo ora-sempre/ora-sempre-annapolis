@@ -14,7 +14,6 @@ import Collections from './pages/Collections';
 import Collection from './pages/Collection';
 import Product from './pages/Product';
 import Credits from './pages/Credits';
-import NewsLetter from './components/NewsLetter';
 import Technology from './pages/Technology';
 import TechnologyProduct from './pages/TechnologyProduct';
 import 'leaflet/dist/leaflet.css';
@@ -28,9 +27,6 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/news-letter" element={<NewsLetter />} />
-
-          {/* Main app routes with common layout */}
           <Route
             path="*"
             element={
