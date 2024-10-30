@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import heroVideo from '../assets/videos/hero_video_small.mp4';
 import './Hero.scss';
 
@@ -15,9 +15,9 @@ const Hero = () => {
           <p>
             Experience the power of advanced anti-aging facials and superfood-infused skincare. At Ora Sempre, we help you rediscover youthful radiance and confidence with personalized treatments designed to nourish and renew.
           </p>
-          <Link to="/treatments" className="btn">
+          <a target='_blank' rel='noreferrer' href="https://go.orasempreannapolis.com/widget/service-menus/orasempre-main-menu" className="btn">
             <span>Book Your Facial</span>
-          </Link>
+          </a>
         </div>
       </div>
     </div>

@@ -114,9 +114,9 @@ const FacialsComponent = () => {
             </div>
           ))}
         </Slider>
-        <Link to="/collections" className="btn">
+        <a target='_blank' rel='noreferrer' href="https://go.orasempreannapolis.com/widget/service-menus/orasempre-main-menu" className="btn">
           Book Your Facial
-        </Link>
+        </a>
       </div>
     </div>
   );
