@@ -62,7 +62,7 @@ const TechnologyProduct = () => {
           <p>By: {provider}</p>
           <p>
             {' '}
-            <b>Price:</b> $ {addComma(price)}
+            {/* <b>Price:</b> $ {addComma(price)} */}
           </p>
 
           <ul>

@@ -77,7 +77,7 @@ const Product = () => {
           <p>{size}</p>
           <p>{description}</p>
           <p>
-            <b> Price :</b> $ {addComma(price)}
+            {/* <b> Price :</b> $ {addComma(price)} */}
             {Array.isArray(ingredients) && <p>(price per set)</p>}
           </p>
 

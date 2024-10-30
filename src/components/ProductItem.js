@@ -23,7 +23,7 @@ const ProductItem = ({ product, id }) => {
         </p>
         <hr />
 
-        <p>$ {addComma(price)}</p>
+        {/* <p>$ {addComma(price)}</p> */}
       </Link>
     </li>
   );

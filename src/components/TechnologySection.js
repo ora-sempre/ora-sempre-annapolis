@@ -19,7 +19,7 @@ const TechnologySection = () => {
               favorite skin care products. TOTALE helps in revealing a
               wrinkle-less, smoother looking complexion.
             </p>
-            <p>$11,950</p>
+            {/* <p>$11,950</p> */}
           </Link>
         </div>
         <div className="technology-section-card">
@@ -37,7 +37,7 @@ const TechnologySection = () => {
               of the blue light spectrum which was found as the most efficient
               wavelength for imperfections and acne.
             </p>
-            <p>$11,950</p>
+            {/* <p>$11,950</p> */}
           </Link>
         </div>
       </div>
