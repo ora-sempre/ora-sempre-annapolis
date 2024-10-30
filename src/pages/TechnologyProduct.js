@@ -33,7 +33,7 @@ const TechnologyProduct = () => {
     return <Spinner />;
   }
 
-  const { description, image, name, price, provider } = product || {};
+  const { description, image, name, /*price,*/ provider } = product || {};
 
   const copyLink = () => {
     navigator.clipboard.writeText(window.location.href);
@@ -41,8 +41,8 @@ const TechnologyProduct = () => {
     toast.success('Link copied');
   };
 
-  const addComma = (price) =>
-    price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  // const addComma = (price) =>
+  //   price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 
   return (
     <div className="product">

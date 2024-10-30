@@ -40,7 +40,7 @@ const Product = () => {
     image,
     ingredients,
     name,
-    price,
+    // price,
     size,
     use,
   } = product || {};
@@ -51,8 +51,8 @@ const Product = () => {
     toast.success('Link copied');
   };
 
-  const addComma = (price) =>
-    price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  // const addComma = (price) =>
+  //   price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 
   return (
     <div className="product">

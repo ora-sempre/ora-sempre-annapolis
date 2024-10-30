@@ -1,11 +1,11 @@
 import { Link, useLocation } from 'react-router-dom';
 
 const ProductItem = ({ product, id }) => {
-  const { collection, name, price, image } = product;
+  const { collection, name, /*price,*/ image } = product;
   const location = useLocation();
 
-  const addComma = (price) =>
-    price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  // const addComma = (price) =>
+  //   price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 
   const isTechnology = location.pathname.includes('/technology');
   return (
