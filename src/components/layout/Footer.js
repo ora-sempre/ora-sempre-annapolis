@@ -29,8 +29,6 @@ const Footer = () => {
         </div>
         <div className="navigation">
           <h3>Menu</h3>
-          {/* <Link to={'/collections'}>Skincare Collection</Link> */}
-          {/* <Link to={'/technology'}>Technology</Link> */}
           <Link to={'/treatments'}>Treatments</Link>
           <Link to={'/packages'}>Packages</Link>
           <Link to={'/about'}>About</Link>

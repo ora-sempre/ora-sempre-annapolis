@@ -286,33 +286,3 @@
     }
   }
 }
-
-// *** TECHNOLOGY *** //
-
-@media (max-width: 768px) {
-  .technology-section {
-    .technology-section-container {
-      grid-template-columns: repeat(2, 1fr);
-      align-items: baseline;
-      gap: 1rem;
-
-      .benefits {
-        font-size: 0.5rem;
-      }
-
-      .technology-section-card {
-        .image-wrapper {
-          width: 100%;
-
-          img {
-            width: 100%;
-          }
-        }
-      }
-
-      .btn {
-        font-size: 0.7rem;
-      }
-    }
-  }
-}

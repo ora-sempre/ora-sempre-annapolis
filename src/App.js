@@ -7,12 +7,7 @@ import Footer from './components/layout/Footer';
 import Treatments from './pages/Treatments';
 import Packages from './pages/Packages';
 import About from './pages/About';
-import Collections from './pages/Collections';
-import Collection from './pages/Collection';
-import Product from './pages/Product';
-import Credits from './pages/Credits';
-import Technology from './pages/Technology';
-import TechnologyProduct from './pages/TechnologyProduct';
+import Credits from './components/Credits';
 import 'leaflet/dist/leaflet.css';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import ShippingPolicy from './components/ShippingPolicy';
@@ -41,22 +36,8 @@ function App() {
                     <Route path="/return-policy" element={<ReturnPolicy />} />
                     <Route path="/store-hours" element={<StoreHours />} />
                     <Route path="/treatments" element={<Treatments />} />
-                    <Route path="/collections" element={<Collections />} />
-                    <Route
-                      path="/collection/:collectionName"
-                      element={<Collection />}
-                    />
-                    <Route
-                      path="/collection/:collectionName/:productId"
-                      element={<Product />}
-                    />
                     <Route path="/about" element={<About />} />
                     <Route path="/packages" element={<Packages />} />
-                    <Route path="/technology" element={<Technology />} />
-                    <Route
-                      path="/technology/:productId"
-                      element={<TechnologyProduct />}
-                    />
                   </Routes>
                 </main>
                 <Footer />

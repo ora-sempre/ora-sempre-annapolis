@@ -231,56 +231,6 @@ footer {
   }
 }
 
-
-
-// *** Technology Section*** //
-.technology-section {
-  margin: 0 auto;
-  text-align: center;
-  background: #fff;
-  padding: 2rem 0;
-
-  .technology-section-container {
-    @include container-setup;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
-    text-align: center;
-
-    h3 {
-      text-align: center;
-    }
-
-    p {
-      font-size: 0.85rem;
-    }
-
-    a {
-      color: $blackColor;
-    }
-
-    .btn {
-      grid-column: 2 / 4;
-    }
-
-    .technology-section-card {
-      
-      &:hover {
-        transition: transform 0.3s ease;
-        transform: scale(1.05);
-      }
-
-      .image-wrapper {
-        width: 100%;
-
-        img {
-          height: 100%;
-        }
-      }
-    }
-  }
-}
-
 // *** Informative *** //
 .informative {
   background-position: center center;

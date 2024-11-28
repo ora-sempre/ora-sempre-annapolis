@@ -20,33 +20,13 @@ const Credits = () => {
         <ul>
           <li>
             <a
-              href="https://www.avinichi.com/"
+              href="https://switchcasestudio.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Avinichi
+              Switch Case LLC
             </a>
-            - for their product information and images.
-          </li>
-          <li>
-            <a
-              href="https://avologi.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Avologi
-            </a>
-            - for their product information and images.
-          </li>
-          <li>
-            <a
-              href="https://moses-a.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Moses Poston
-            </a>
-            - for the website development.
+            - for website design and development.
           </li>
         </ul>
       </div>
