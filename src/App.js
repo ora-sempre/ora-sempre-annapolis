@@ -7,6 +7,7 @@ import Profile from './pages/Profile';
 import PrivateRoute from './components/PrivateRoute';
 import Footer from './components/layout/Footer';
 import Treatments from './pages/Treatments';
+import Packages from './pages/Packages';
 import About from './pages/About';
 import ContactForm from './components/ContactForm';
 import Ingredients from './components/Ingredients';
@@ -55,6 +56,7 @@ function App() {
                       element={<Product />}
                     />
                     <Route path="/about" element={<About />} />
+                    <Route path="/packages" element={<Packages />} />
                     <Route path="/contact-us" element={<ContactForm />} />
                     <Route path="/profile" element={<PrivateRoute />}>
                       <Route path="/profile" element={<Profile />} />

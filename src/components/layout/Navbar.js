@@ -29,14 +29,17 @@ const Navbar = () => {
             <NavLink target='_blank' rel='noreferrer' to="https://go.orasempreannapolis.com/widget/service-menus/orasempre-main-menu" activeClassName="active" onClick={closeMenu}>
               Book a Facial
             </NavLink>
-            <NavLink to="/collections" activeClassName="active" onClick={closeMenu}>
+            {/* <NavLink to="/collections" activeClassName="active" onClick={closeMenu}>
               Skincare
             </NavLink>
             <NavLink to="/technology" activeClassName="active" onClick={closeMenu}>
               Technology
-            </NavLink>
+            </NavLink> */}
             <NavLink to="/treatments" activeClassName="active" onClick={closeMenu}>
               Treatments
+            </NavLink>
+            <NavLink to="/packages" activeClassName="active" onClick={closeMenu}>
+              Packages
             </NavLink>
             <NavLink to="/about" activeClassName="active" onClick={closeMenu}>
               About
