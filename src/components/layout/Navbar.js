@@ -40,6 +40,8 @@ const Navbar = () => {
               About
             </NavLink>
           </nav>
+          <div className={`navbar-profile ${isOpen ? 'open-inline' : ''}`}>
+          </div>
         </div>
       </div>
     </header>
