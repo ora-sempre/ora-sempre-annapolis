@@ -1,0 +1,67 @@
+@import '../../scss/variables';
+@import '../../scss/mixins';
+
+// *** Navbar *** //
+.navbar{
+  background: $whiteColor;
+}
+
+.navbar-container {
+  @include container-setup;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.navbar-logo {
+  .logo {
+    width: 100px;
+  }
+}
+
+.menu-toggle {
+  display: none;
+  border: none;
+  background: none;
+
+  img {
+    width: 30px;
+  }
+}
+
+.navbar-links,
+.navbar-profile {
+  @include underline-a;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  a {
+    text-decoration: none;
+    color: $blackColor;
+  }
+}
+
+.topCTA {
+  height: 3rem;
+  background: #313F3C;
+  color: $whiteColor;
+  
+  ul {
+    color: $whiteColor;
+  }
+  
+  a,
+  li {
+    color: $whiteColor;
+    font-size: 0.85rem;
+    margin: 0 0.25rem;
+    line-height: 02rem;
+    text-align: center;
+  }
+
+  .svg-icon {
+    fill: $whiteColor;
+  }
+}

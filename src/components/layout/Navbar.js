@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import TopCTA from './TopCTA';
 import hamburger from '../../assets/svg/hamburger.svg';
 import close from '../../assets/svg/close.svg';
+import './Navbar.scss';
 
 const Navbar = () => {
 
@@ -39,8 +40,6 @@ const Navbar = () => {
               About
             </NavLink>
           </nav>
-          <div className={`navbar-profile ${isOpen ? 'open-inline' : ''}`}>
-          </div>
         </div>
       </div>
     </header>
