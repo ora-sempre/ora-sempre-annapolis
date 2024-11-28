@@ -3,14 +3,10 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Navbar from './components/layout/Navbar';
 import Home from './pages/Home';
-import Profile from './pages/Profile';
-import PrivateRoute from './components/PrivateRoute';
 import Footer from './components/layout/Footer';
 import Treatments from './pages/Treatments';
 import Packages from './pages/Packages';
 import About from './pages/About';
-import ContactForm from './components/ContactForm';
-import Ingredients from './components/Ingredients';
 import Collections from './pages/Collections';
 import Collection from './pages/Collection';
 import Product from './pages/Product';
@@ -44,7 +40,6 @@ function App() {
                     />
                     <Route path="/return-policy" element={<ReturnPolicy />} />
                     <Route path="/store-hours" element={<StoreHours />} />
-                    <Route path="/ingredients" element={<Ingredients />} />
                     <Route path="/treatments" element={<Treatments />} />
                     <Route path="/collections" element={<Collections />} />
                     <Route
@@ -57,10 +52,6 @@ function App() {
                     />
                     <Route path="/about" element={<About />} />
                     <Route path="/packages" element={<Packages />} />
-                    <Route path="/contact-us" element={<ContactForm />} />
-                    <Route path="/profile" element={<PrivateRoute />}>
-                      <Route path="/profile" element={<Profile />} />
-                    </Route>
                     <Route path="/technology" element={<Technology />} />
                     <Route
                       path="/technology/:productId"
