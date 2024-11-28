@@ -1,5 +1,3 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
 import Slider from 'react-slick'; // Import the Slider component from react-slick
 import microderm from '../assets/website-images/microderm.jpg';
 import bluelight from '../assets/website-images/blue-light.jpg';
@@ -102,7 +100,7 @@ const FacialsComponent = () => {
         <Slider {...settings}>
           {products.map((product) => (
             <div key={product.id} className="best-facials-card">
-              <Link to={product.link}>
+              <a href='https://go.orasempreannapolis.com/widget/service-menus/orasempre-main-menu'>
                 <div className="image-wrapper">
                   <img src={product.imageUrl} alt={product.title} />
                 </div>
@@ -110,7 +108,7 @@ const FacialsComponent = () => {
                 <hr />
                 <p>{product.description}</p>
                 <p className="price">{product.price}</p>
-              </Link>
+              </a>
             </div>
           ))}
         </Slider>
