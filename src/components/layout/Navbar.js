@@ -29,6 +29,9 @@ const Navbar = () => {
             <NavLink target='_blank' rel='noreferrer' to="https://go.orasempreannapolis.com/widget/service-menus/orasempre-main-menu" activeClassName="active" onClick={closeMenu}>
               Book a Facial
             </NavLink>
+            <NavLink to="/packages" activeClassName="active" onClick={closeMenu}>
+              Packages
+            </NavLink>
             <NavLink to="/collections" activeClassName="active" onClick={closeMenu}>
               Skincare
             </NavLink>

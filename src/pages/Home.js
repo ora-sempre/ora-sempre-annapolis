@@ -3,6 +3,7 @@ import SecondInformative from '../components/SecondInformative';
 import TechnologySection from '../components/TechnologySection';
 import FacialsComponent from '../components/FacialsComponent';
 import VideoDr from '../components/VideoDr';
+import PromoModal from '../components/PromoModal';
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <VideoDr />
       <TechnologySection />
       <SecondInformative />
+      <PromoModal />
     </div>
   );
 };

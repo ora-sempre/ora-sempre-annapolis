@@ -14,6 +14,7 @@ import Collections from './pages/Collections';
 import Collection from './pages/Collection';
 import Product from './pages/Product';
 import Credits from './pages/Credits';
+import Packages from './pages/Packages';
 import Technology from './pages/Technology';
 import TechnologyProduct from './pages/TechnologyProduct';
 import 'leaflet/dist/leaflet.css';
@@ -44,6 +45,7 @@ function App() {
                     <Route path="/return-policy" element={<ReturnPolicy />} />
                     <Route path="/store-hours" element={<StoreHours />} />
                     <Route path="/ingredients" element={<Ingredients />} />
+                    <Route path="/packages" element={<Packages />} />
                     <Route path="/treatments" element={<Treatments />} />
                     <Route path="/collections" element={<Collections />} />
                     <Route
