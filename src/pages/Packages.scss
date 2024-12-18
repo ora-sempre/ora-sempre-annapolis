@@ -1,0 +1,50 @@
+@import '../scss/variables';
+@import '../scss/mixins';
+/* Packages.css */
+.packages-container {
+  @include container-setup;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  .packages-title {
+    text-align: center;
+    font-weight: 300;
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  .packages-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+// Card
+.package-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px #ccc;
+  background: #F9FBFB;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .package-title {
+    color: #313F3C;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  .package-features {
+    text-align: left;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    .package-feature {
+      margin-bottom: 10px;
+    }
+  }
+  .package-price {
+    font-size: 1.25rem;
+    color: #313F3C;
+  }
+}
