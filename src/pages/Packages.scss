@@ -12,7 +12,8 @@
     margin-bottom: 20px;
   }
   .packages-grid {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
