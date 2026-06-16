@@ -22,10 +22,10 @@ const PromoModal = () => {
         </button>
         <h2>Special Promotion!</h2>
         <p>
-          For first-time customers only: Enjoy our Signature Anti-Aging + Collagen Booster Facial for just <strong>$79.99</strong>.
+          For first-time customers only: Enjoy our Signature Anti-Aging + Collagen Booster Facial for just <strong>$99.99</strong>.
         </p>
         <a
-          href="https://booking.orasempreannapolis.com/secdule-orasempre-antiaging?sessionId=f6512871-a10d-4205-8481-31df7768f203&trigger_link=R2IdeW1jBD0UpAJsrOBd"
+          href="https://booking.orasempreannapolis.com/antiagingnew-special-lp1"
           target="_blank"
           rel="noreferrer"
           className="promo-link"
