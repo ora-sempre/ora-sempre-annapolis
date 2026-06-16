@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ReactComponent as ArrowIcon } from '../assets/svg/arrow_forward.svg';
+import ArrowIcon from '../assets/svg/arrow_forward.svg?react';
 import img1 from '../assets/website-images/treatments/1.png';
 import img2 from '../assets/website-images/treatments/2.png';
 import img3 from '../assets/website-images/treatments/3.png';

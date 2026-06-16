@@ -1,5 +1,5 @@
-import { ReactComponent as LocationIcon } from '../../assets/svg/location.svg';
-import { ReactComponent as CallIcon } from '../../assets/svg/call.svg';
+import LocationIcon from '../../assets/svg/location.svg?react';
+import CallIcon from '../../assets/svg/call.svg?react';
 
 const TopCTA = () => {
   return (
