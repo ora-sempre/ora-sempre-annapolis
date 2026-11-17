@@ -4,7 +4,8 @@ const Copyrights = () => {
   const footerYear = new Date().getFullYear();
   return (
     <div className="copyrights">
-      {footerYear} All Rights Reserved to Ora Sempre |{' '}
+      {footerYear} All Rights Reserved to Ora Sempre Spa Annapolis, operated by
+      Gachel LLC |{' '}
       <Link to="/credits">Website Credits</Link>
     </div>
   );

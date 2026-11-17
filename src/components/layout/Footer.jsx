@@ -13,7 +13,11 @@ const Footer = () => {
             <br />
             Annapolis, MD 21401
           </p>
-          <p>(410) 571-5489</p>
+          <p>
+            <a href="tel:+14105715489">(410) 571-5489</a>
+            <br />
+            <a href="mailto:avinichics@gmail.com">avinichics@gmail.com</a>
+          </p>
           <p>
             Sun - Fri : 11 AM - 6 PM
             <br />
@@ -23,6 +27,7 @@ const Footer = () => {
         <div className="footer-policies">
           <h3>Policies</h3>
           <Link to={'/privacy-policy'}>Privacy Policy</Link>
+          <Link to={'/terms'}>Terms &amp; Conditions</Link>
           <Link to={'/return-policy'}>Return Policy</Link>
           <Link to={'/return-policy'}>Exchange Policy</Link>
           <Link to={'/store-hours'}>Store Hours</Link>

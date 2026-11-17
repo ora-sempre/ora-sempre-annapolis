@@ -19,6 +19,7 @@ import PrivacyPolicy from './components/PrivacyPolicy';
 import ShippingPolicy from './components/ShippingPolicy';
 import ReturnPolicy from './components/ReturnPolicy';
 import StoreHours from './components/StoreHours';
+import TermsAndConditions from './components/TermsAndConditions';
 
 function App() {
   return (
@@ -41,6 +42,11 @@ function App() {
                     />
                     <Route path="/return-policy" element={<ReturnPolicy />} />
                     <Route path="/store-hours" element={<StoreHours />} />
+                    <Route path="/terms" element={<TermsAndConditions />} />
+                    <Route
+                      path="/terms-conditions"
+                      element={<TermsAndConditions />}
+                    />
                     <Route path="/ingredients" element={<Ingredients />} />
                     <Route path="/packages" element={<Packages />} />
                     <Route path="/treatments" element={<Treatments />} />

@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const PrivacyPolicy = () => {
   return (
     <div className="policy-page">
@@ -6,7 +8,9 @@ const PrivacyPolicy = () => {
 
         <p>
           This Privacy Policy outlines how we collect, use, and protect your
-          personal information when you visit our website orasempreannapolis.com.
+          personal information when you visit our website orasempreannapolis.com
+          or communicate with Ora Sempre Spa Annapolis, operated by Gachel LLC,
+          216 Main St, Suite A, Annapolis, MD 21401.
         </p>
         <h3>Information We Collect</h3>
         <p>
@@ -36,6 +40,23 @@ const PrivacyPolicy = () => {
           to third parties unless we provide you with advance notice or as
           required by law.
         </p>
+        <h3>Text Messaging (SMS)</h3>
+        <p>
+          If you give us your mobile number and opt in, we use it only to send
+          appointment confirmations, reminders, rescheduling notices and replies
+          to your questions. We do not send marketing text messages. Message
+          frequency varies. Message and data rates may apply. Reply STOP to opt
+          out or HELP for help at any time.
+        </p>
+        <p>
+          No mobile information will be shared with third parties or affiliates
+          for marketing or promotional purposes. Text messaging originator
+          opt-in data and consent will not be shared with any third parties.
+          This excludes service providers that help us deliver our text
+          messages (for example our messaging platform and mobile carriers).
+          See our <Link to="/terms">Terms &amp; Conditions</Link> for the full
+          SMS terms.
+        </p>
         <h3>Cookies</h3>
         <p>
           Our website may use cookies to enhance your browsing experience. You
@@ -58,7 +79,7 @@ const PrivacyPolicy = () => {
           If you have any questions or concerns regarding our Privacy Policy,
           please contact us at avinichics@gmail.com
         </p>
-        <p>Last Updated: April, 2022</p>
+        <p>Last Updated: November 2026</p>
       </div>
     </div>
   );
