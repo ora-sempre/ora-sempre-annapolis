@@ -33,6 +33,10 @@ const TermsAndConditions = () => {
           text messages is not a condition of any purchase or booking.
         </p>
         <p>
+          <strong>Age:</strong> you must be 18 or older to opt in to our text
+          messages.
+        </p>
+        <p>
           <strong>Message frequency:</strong> varies with your appointments and
           questions.
         </p>
