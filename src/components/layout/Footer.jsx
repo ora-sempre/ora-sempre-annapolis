@@ -19,6 +19,9 @@ const Footer = () => {
             <a href="mailto:avinichics@gmail.com">avinichics@gmail.com</a>
           </p>
           <p>
+            <Link to={'/request-appointment'}>Request an Appointment</Link>
+          </p>
+          <p>
             Sun - Fri : 11 AM - 6 PM
             <br />
             Saturday : Closed
